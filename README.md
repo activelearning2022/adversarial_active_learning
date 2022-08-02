@@ -30,21 +30,21 @@ Running```git clone https://github.com/lee-zq/VesselSeg-Pytorch.git```
 The project structure and intention are as follows : 
 ```
 Adversarial active learning			# Source code		
-    ├── seed.py			 	# Set up random seed
-    ├── query_strategies		# All query_strategies
-    │   ├── adaptive_adversarial_sample.py  # Our method
-    │   ├── adversarial_deepfool.py     # The method we based on
-    │   ├── bayesian_active_learning_disagreement_dropout.py	 # Deep bayesian query method
-    │   ├── entropy_sampling.py		# Entropy based query method
-    │   ├── entropy_sampling_dropout.py		# Entropy based MC dropout query method
-    │   ├── random_sampling.py		        # Random selection
-    │   ├── strategy.py             # Functions needed for query strategies
-    ├── data.py	        # Prepare the dataset & initialization and update for training dataset
-    ├── handlers.py        # Get dataloader for the dataset
-    ├── main.py			     # An example for code utilization, including the whole process of active learning
-    ├── nets.py		        # Training models and methods needed for query method
-    ├── supervised_baseline.py	# An example for supervised learning traning process
-    └── utils.py			          # Important setups including network, dataset, hyperparameters...
+    ├── seed.py			 	                                          # Set up random seed
+    ├── query_strategies		                                    # All query_strategies
+    │   ├── adaptive_adversarial_sample.py                      # Our method
+    │   ├── adversarial_deepfool.py                             # The method we based on
+    │   ├── bayesian_active_learning_disagreement_dropout.py	  # Deep bayesian query method
+    │   ├── entropy_sampling.py		                              # Entropy based query method
+    │   ├── entropy_sampling_dropout.py		                      # Entropy based MC dropout query method
+    │   ├── random_sampling.py		                              # Random selection
+    │   ├── strategy.py                                         # Functions needed for query strategies
+    ├── data.py	                                                # Prepare the dataset & initialization and update for training dataset
+    ├── handlers.py                                             # Get dataloader for the dataset
+    ├── main.py			                                            # An example for code utilization, including the whole process of active learning
+    ├── nets.py		                                              # Training models and methods needed for query method
+    ├── supervised_baseline.py	                                # An example for supervised learning traning process
+    └── utils.py			                                          # Important setups including network, dataset, hyperparameters...
 ```
 ### 2) Datasets preparation 
 1. Download the datasets from the official address:
