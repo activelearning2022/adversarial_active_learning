@@ -26,7 +26,7 @@ The above environment is successful when running the code of the project. Pytorc
 ## Usage 
 ### 1) Download Project 
 
-Running```git clone https://github.com/lee-zq/VesselSeg-Pytorch.git```  
+Running```git clone https://github.com/activelearning2022/adversarial_active_learning.git```  
 The project structure and intention are as follows : 
 ```
 Adversarial active learning			# Source code		
@@ -51,7 +51,7 @@ Adversarial active learning			# Source code
    
    Messidor: https://www.adcis.net/en/third-party/messidor/
 
-   BreakHis: https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/
+<!--    BreakHis: https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/ -->
    
    Breast Cancer Diagnosis: https://iciar2018-challenge.grand-challenge.org/
 2. Modify the data folder path for specific dataset in `data.py`
