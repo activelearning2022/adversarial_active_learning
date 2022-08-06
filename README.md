@@ -50,10 +50,12 @@ Adversarial active learning			# Source code
 1. Download the datasets from the official address:
    
    Messidor: https://www.adcis.net/en/third-party/messidor/
+   
+   Breast Cancer Diagnosis: https://iciar2018-challenge.grand-challenge.org/
+
 
 <!--    BreakHis: https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/ -->
    
-   Breast Cancer Diagnosis: https://iciar2018-challenge.grand-challenge.org/
 2. Modify the data folder path for specific dataset in `data.py`
 
 ### 3) Run Active learning process 
